@@ -1,7 +1,5 @@
 class Calculator
-    def initialize(s=o)
-        @@s=s
-    end
+  @@s=0
     
     def self.sum(*a)
         @@s=a.sum
@@ -23,4 +21,4 @@ class Calculator
 
 end
 
-puts Calculator.sum(5,3,2,12).subtract(1).result
+puts Calculator.sum(5,3,2,12).subtract(10).result
